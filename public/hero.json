@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Experience Pure Sound",
+    "subtitle": "Discover cutting-edge audio devices that deliver studio-quality sound right at your home.",
+    "ctaText": "Shop Now",
+    "image": "https://res.cloudinary.com/dnh9rdh01/image/upload/v1756062192/headphones_y21xla.png"
+  },
+  {
+    "id": 2,
+    "title": "Wireless Freedom",
+    "subtitle": "Stay connected with our premium wireless earbuds – built for comfort, style, and unbeatable sound.",
+    "ctaText": "Explore Earbuds",
+    "image": "https://res.cloudinary.com/dnh9rdh01/image/upload/v1756062678/Untitled_design_2_jeadgr.png"
+  },
+  {
+    "id": 3,
+    "title": "Powerful Speakers",
+    "subtitle": "Bring the party alive with high-performance Bluetooth speakers designed for every occasion.",
+    "ctaText": "View Speakers",
+    "image": "https://res.cloudinary.com/dnh9rdh01/image/upload/v1756065631/Adobe_Express_-_file_fgmte9.png"
+  }
+]

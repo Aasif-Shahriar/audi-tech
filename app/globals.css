@@ -1,7 +1,10 @@
 @import "tailwindcss";
+ @plugin "daisyui" {
+   themes: light --default;
+ }
 
 :root {
-  --background: #ffffff;
+  --background: #f4fafb;
   --foreground: #171717;
 }
 
@@ -12,7 +15,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -23,4 +26,14 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Active link styling */
+.menu li a.active {
+  @apply bg-amber-400 text-black;
+}
+
+/* Hover effects */
+.menu li a:not(.active):hover {
+  @apply bg-base-200;
 }
